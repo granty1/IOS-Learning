@@ -50,6 +50,7 @@
     _progress.progress = 0.0f;
     _progressValue.text = @"";
     [self.timer invalidate];
+    self.downloadButton.enabled = YES;
 }
 
 -(void) sendAlertNotification{
